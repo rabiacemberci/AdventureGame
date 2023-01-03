@@ -28,4 +28,5 @@ Eşya : Su (Water)
 Özellik : Destekleyici Eşyalar Satın Almak  
 Silah : Tabanca,Kılıç,Tüfek  
 Zırh : Hafif,Orta,Ağır  
-
+## Class Diagram  
+![class-diagram](https://user-images.githubusercontent.com/93681938/210351889-b302ed14-70b6-4209-886e-fa45524d1377.jpg)  
