@@ -73,48 +73,41 @@ public class Player {
         return health;
     }
     public void setHealth(int health) {
+       if (health < 0){
+           health = 0;
+       }
         this.health = health;
     }
-
     public int getMoney() {
         return money;
     }
-
     public void setMoney(int money) {
         this.money = money;
     }
-
     public String getCharName() {
         return charName;
     }
-
     public void setCharName(String charName) {
         this.charName = charName;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public Inventory getInventory() {
         return inventory;
     }
-
     public void setInventory(Inventory inventory) {
         this.inventory = inventory;
     }
     public Weapon getWeapon(){
         return this.getInventory().getWeapon();
     }
-
     public int getOrjinalHealth() {
         return orjinalHealth;
     }
-
     public void setOrjinalHealth(int orjinalHealth) {
         this.orjinalHealth = orjinalHealth;
     }
